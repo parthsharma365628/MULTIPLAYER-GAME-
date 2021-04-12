@@ -36,18 +36,18 @@ writePosition(-5,0)
   else if(keyDown(RIGHT_ARROW)){
     balloon.addAnimation("hotAirBalloon",balloonImage2);
     //write code to move air balloon in right direction
-    writePosition(2,0)
+    writePosition(5,0)
 
   }
   else if(keyDown(UP_ARROW)){
     balloon.addAnimation("hotAirBalloon",balloonImage2);
     //write code to move air balloon in up direction
-    writePosition(0,-2)
+    writePosition(5,-2)
   }
   else if(keyDown(DOWN_ARROW)){
     balloon.addAnimation("hotAirBalloon",balloonImage2);
     //write code to move air balloon in down direction
-    writePosition(0,2)
+    writePosition(5,2)
   }
 
   drawSprites();
